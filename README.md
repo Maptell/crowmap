@@ -7,4 +7,4 @@ Despite it's stark power and the availability of a large number of connectors, t
 
 Crowmap attempts to solve this disability by providing an easy-to-use, intuitive tool to create mapserver mapfiles.
 
-Crowmap keeps your maps in a clean way. 
+It keeps your maps in a clean way. 
