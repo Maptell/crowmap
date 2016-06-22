@@ -1,29 +1,52 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<head>
-	
-	<link rel="stylesheet" href="lib/actionbuilder.css" />
-	<script src="lib/d3.v3.min.js"></script>
-	<script src="lib/jquery.min.js"></script>
-	<script src="lib/actionbuilder.js"></script>
-	<script src="lib/underscore-min.js"></script>
-	<script src="lib/crowmap.js"></script>
-	
-
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <title>crowmap Dashboard</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/actionbuilder.css" />
+		<link rel="stylesheet" href="css/crowmap.css" />
+		<script src="lib/d3.v3.min.js"></script>
+		<script src="lib/jquery.min.js"></script>
+		<script src="lib/actionbuilder.js"></script>
+		<script src="lib/underscore-min.js"></script>
+		<script src="lib/crowmap.js"></script>
+	</head>
 
 <body>
-	<div id="graphic"></div>
-
-    <div id="filesaver">
-    
-<input type="text" value="mymapfile.map" placeholder="filename.map">
-<button onclick="saveFile()">Create file</button> <div id="dlnkplace"></div>
-   
-</div>
-
-
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">CROWMAP</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                  <div id="filesaver">
+                  <div class="form-group">
+                    <input type="text" class="form-control" value="mymapfile.map" placeholder="filename.map">
+                  </div>
+                  <button onclick="saveFile()" class="btn btn-success">Create Map</button>
+                  <div class="form-group">
+                  <div id="dlnkplace"></div>
+                </div>
+                </div>
+                </form>
+              </div><!--/.navbar-collapse -->
+    </div><!--Main container of the nav -->
+  </nav>
+</form>
 </body>
-
-
 </html>
