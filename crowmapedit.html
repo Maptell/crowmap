@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     <title>crowmap Dashboard</title>
     <!-- Latest compiled and minified CSS. The actionbuilder css may be moved to /css folder -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="lib/actionbuilder.css" />
+		<link rel="stylesheet" href="css/actionbuilder.css" />
 		<link rel="stylesheet" href="css/crowmap.css" />
 		<script src="lib/d3.v3.min.js"></script>
 		<script src="lib/jquery.min.js"></script>
@@ -33,18 +33,18 @@
         <a class="navbar-brand" href="#">CROWMAP</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
-    				<form class="navbar-form navbar-right">
+                <div class="navbar-form navbar-right" >
                   <div id="filesaver">
                   <div class="form-group">
                     <input type="text" class="form-control" value="mymapfile.map" placeholder="filename.map">
                   </div>
-                  <button onclick="saveFile()" class="btn btn-primary"><span class="glyphicon glyphicon-map-marker"></span> Create Map</button>
+                  <button onclick="saveFile()" class="btn btn-success">Create Map</button>
                   <div class="form-group">
                   <div id="dlnkplace"></div>
                 </div>
                 </div>
-                </form>
-    	</div><!--/.navbar-collapse -->
+                </div>
+              </div><!--/.navbar-collapse -->
     </div><!--Main container of the nav -->
   </nav>
 </form>
