@@ -4,8 +4,8 @@
   width: 443px;
   padding: 1px;
   overflow: hidden;
-  background: #000000;
-  background: rgba(0, 0, 0, 0.8);
+  /*background: #000000;
+  background: rgba(0, 0, 0, 0.8);*/
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
