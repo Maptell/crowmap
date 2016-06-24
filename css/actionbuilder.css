@@ -88,6 +88,13 @@
 }
 .popover-close
 {
+<<<<<<< HEAD
+	width: 16px;
+    height: 16px;
+    background-color: red;
+    float: right;
+    
+=======
   width:20px;
   height:20px;
   float: right;
@@ -95,6 +102,7 @@
 .action_Symbol
 {
 	background-color: #C9302C;
+>>>>>>> CrowmapBranch
 }
 .action_Projection
 {
