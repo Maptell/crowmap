@@ -1,10 +1,5 @@
 /* Taken from bootstrap: https://github.com/twitter/bootstrap/blob/master/less/tooltip.less */
 
-
-
-
-
-
 .popover-inner {
   width: 443px;
   padding: 1px;
@@ -28,7 +23,7 @@
      -moz-border-radius: 3px 3px 0 0;
           border-radius: 3px 3px 0 0;
   margin: 0;
-  
+
 }
 
 .popover-content {
@@ -48,44 +43,39 @@
   margin-bottom: 0;
 }
 .canvas{
-	
+
 	background-color:blue;
 }
 
 .action_bar{
-	
+
 	display:inline;
 	width: 100%;
 	height: 100%;
 }
 
-.action_bar{
-	
-	display:inline;
-	width: 100%;
-	height: 100%;
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: top;
+  cursor:pointer;
+  font-weight: bold;
+  color: white;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  margin-right:1px
 }
 .action_Moveup{
-	
-	width:30px;
-	height:30px;
-	background-color: #00FF00;
-	display:inline-block;
-	
+  vertical-align: top;
 }
 .action_Movedown{
-	
-	width:30px;
-	height:30px;
-	background-color: #FF0000;
-	display:inline-block;
+  vertical-align: top;
 }
 .action_Delete{
-	
-	width:30px;
-	height:30px;
-	background-color: #0000FF;
-	display:inline-block;
+  vertical-align: top;
 }
 
 .action_Spacer
@@ -94,159 +84,95 @@
 	height:30px;
 	background-color: #000000FF;
 	display:inline-block;
-	
-}
 
-.action_Symbol
-{
-	width:30px;
-	height:30px;
-	background-color: #FF0000;
-	display:inline-block;
-	
 }
-
 .popover-close
 {
+<<<<<<< HEAD
 	width: 16px;
     height: 16px;
     background-color: red;
     float: right;
     
+=======
+  width:20px;
+  height:20px;
+  float: right;
 }
-
-
-
-
+.action_Symbol
+{
+	background-color: #C9302C;
+>>>>>>> CrowmapBranch
+}
 .action_Projection
 {
-	width:30px;
-	height:30px;
-	background-color: #002000;
-	display:inline-block;
+	background-color: #F98A5F;
 }
 
 .action_Web
 {
-	width:30px;
-	height:30px;
-	background-color: #00FF00;
-	display:inline-block;
+	background-color: #28BE9B;
 }
 
 .action_Legend
 {
-	width:30px;
-	height:30px;
-	background-color: #002070;
-	display:inline-block;
+	background-color: #025AA5;
 }
 .action_Scalebar
 {
-	width:30px;
-	height:30px;
-	background-color: #991100;
-	display:inline-block;
-	
+	background-color: #EC971F;
 }
 .action_Outputformat
 {
-	width:30px;
-	height:30px;
 	background-color: #888888;
-	display:inline-block;
-	
 }
 .action_Querymap
 {
-	width:30px;
-	height:30px;
 	background-color: #225588;
-	display:inline-block;
 }
 .action_Reference
 {
-	width:30px;
-	height:30px;
-	background-color: #00FFFF;
-	display:inline-block;
+	background-color: #31B0D5;
 }
 .action_Layer
 {
-	width:30px;
-	height:30px;
-	background-color: #225500;
-	display:inline-block;
+	background-color: #449D44;
 }
 .action_Class
 {
-	width:30px;
-	height:30px;
-	background-color: #00FFFF;
-	display:inline-block;
+	background-color: #7D65A3;
 }
 .action_Cluster
 {
-	width:30px;
-	height:30px;
-	background-color: #225588;
-	display:inline-block;
+	background-color: #74AAF7;
 }
 .action_Composite
 {
-	width:30px;
-	height:30px;
-	background-color: #888888;
-	display:inline-block;
+	background-color: #F15D58;
 }
 .action_Feature
 {
-	width:30px;
-	height:30px;
-	background-color: #991100;
-	display:inline-block;
+	background-color: #A68572;
 }
 .action_Grid
 {
-	width:30px;
-	height:30px;
-	background-color: #00FF00;
-	display:inline-block;
+	background-color: #28BE9B;
 }
 .action_Join
 {
-	width:30px;
-	height:30px;
-	background-color: #002070;
-	display:inline-block;
-}
-.action_Projection
-{
-	width:30px;
-	height:30px;
-	background-color: #002000;
-	display:inline-block;
+	background-color: #1499D3;
 }
 .action_Label
 {
-	width:30px;
-	height:30px;
-	background-color: #002070;
-	display:inline-block;
+	background-color: #02C9C9;
 }
 .action_Leader
 {
-	width:30px;
-	height:30px;
-	background-color: #991100;
-	display:inline-block;
+	background-color: #CCC51C;
 }
 .action_Style
 {
-	width:30px;
-	height:30px;
-	background-color: #002000;
-	display:inline-block;
+	background-color: #E45F56;
 }
 table {
  font-family: "Helvetica", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", Tahoma, sans-serif;
@@ -269,7 +195,7 @@ table, td, th {
 table td {
    width: 100px;
    overflow: hidden;
-   
+
 }
 th {
  background-color: rgb(8,81,156);
@@ -290,7 +216,7 @@ input  {
    padding:3px;
 }
 label{
-   
+
    height:25px
 }
 select {
@@ -367,7 +293,7 @@ body { font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-siz
        #header{ background-color:#F6F6F6; width:100px; margin:0px auto; margin-top:20px;
             -moz-border-radius:10px;  -webkit-border-radius:10px; padding:30px; position:relative;}
        #header h2 {font-size:16px; font-weight:normal; margin:0px; padding:0px;}
-       
+
        .node {
 			cursor: pointer;
 		}
@@ -387,26 +313,23 @@ body { font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-siz
 			stroke: #ccc;
 			stroke-width: 1.5px;
 		}
-		
+
 .mtooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
-    
+
 }
 
-.mtooltip .mtooltiptext {
+.mtooltiptext {
     visibility: hidden;
-    width: 120px;
-    background-color: yellow;
-    color: #000000;
-    text-align: center;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: normal;
     border-radius: 6px;
-    padding: 10px 0;
-    margin :30px;
-    
-
-     
+    padding: 5px 10px 5px 10px;
+    margin :25px 0px 0px 0px;
     position: absolute;
     z-index: 1;
 }
