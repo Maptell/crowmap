@@ -229,8 +229,6 @@ select {
     padding:5px 0;
   }
 
-
-
 body { font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-size:13px; margin:0px auto;}
        #tabs { margin:0; padding:0; list-style:none; overflow:hidden; }
        #tabs li { float:left; display:block; padding:6px 0px 6px 0px; }
@@ -240,7 +238,7 @@ body { font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-siz
        #tabs li.current { background-color:#286090;color:#ffffff}
        #tabs li.current a { color:#ffffff;text-decoration:none; }
        #tabs li a.remove { color:#f00; margin-left:10px;}
-       #content p { margin: 0; }
+       #content p { margin: 0}
 
        #main { width:900px; margin:0px auto; overflow:hidden;background-color:#F6F6F6; margin-top:20px;
             -moz-border-radius:10px;  -webkit-border-radius:10px; padding:30px;}
