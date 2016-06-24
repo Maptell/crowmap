@@ -87,10 +87,20 @@
 }
 .popover-close
 {
-	  width: 16px;
-    height: 16px;
-    float: right
+  /*width: 16px;
+  height: 16px;*/
+  cursor:pointer;
+  color:#ff0000;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  float: right
 }
+.popover-close:hover{
+  cursor:pointer;
+    color:#ff0000;
+    opacity: 0.4;
+}
+
 .action_Symbol
 {
 	background-color: #C9302C;
