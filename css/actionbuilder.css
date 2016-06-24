@@ -210,21 +210,25 @@ th {
 }
 select{
    min-height:20px;
-   width:120px;
+   width:200px;
    /*border: 1px solid #008000; */
 }
 
 input  {
-    width:120px;
-   /*border: 1px solid #008000; */
-   min-height:20px;
+    width:200px;
+   /*border: 1px solid #008000;
+   min-height:20px;*/
  }
 .lbl{
-   padding:3px;
+   padding:0px 3px;
+   font-weight:normal
 }
-label{
-   height:25px
+.color{
+   width:120px;
 }
+/*label{
+  height:10px
+}*/
 select {
     padding:5px 0;
   }
@@ -233,7 +237,7 @@ body { font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-siz
        #tabs { margin:0; padding:0; list-style:none; overflow:hidden; }
        #tabs li { float:left; display:block; padding:6px 0px 6px 0px; }
        #tabs li:hover {background-color:#EEEEEE}
-       #tabs li a { color:#286090; text-decoration:none;padding:9px}
+       #tabs li a {color:#286090; text-decoration:none;padding:9px}
        #tabs li a:hover { color:#777777; text-decoration:none;padding:9px}
        #tabs li.current { background-color:#286090;color:#ffffff}
        #tabs li.current a { color:#ffffff;text-decoration:none; }
