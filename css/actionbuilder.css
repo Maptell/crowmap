@@ -182,11 +182,12 @@
 	background-color: #E45F56;
 }
 table {
- font-family: "Helvetica", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", Tahoma, sans-serif;
+ /*font-family: "Helvetica", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", Tahoma, sans-serif;*/
+ font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
  border-collapse: collapse;
  border-spacing: 0;
- font-size:12px;
+ font-size:13px;
  margin:10px;
  width:250px;
 }
@@ -233,7 +234,8 @@ select {
     padding:5px 0;
   }
 
-body { font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-size:13px; margin:0px auto;}
+body /*{ font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-size:13px; margin:0px auto;}*/
+       { font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;}
        #tabs { margin:0; padding:0; list-style:none; overflow:hidden; }
        #tabs li { float:left; display:block; padding:6px 0px 6px 0px; }
        #tabs li:hover {background-color:#EEEEEE}
