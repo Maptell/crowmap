@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="css/actionbuilder.css" />
 		<link rel="stylesheet" href="css/crowmap.css" />
 		<link rel="stylesheet" href="css/bootstrap-switch.min.css" />
+		<link rel="stylesheet" href="css/bootstrap-colorpicker.min.css">
+		
 		<script src="lib/d3.v3.min.js"></script>
 		<script src="lib/jquery.min.js"></script>
 		<script src="lib/baseclass.js"></script>
@@ -23,10 +25,19 @@
     	<script src="lib/map2json.js"></script>
 		<script src="lib/crowmap.js"></script>
 		<script src="lib/bootstrap-switch.min.js"></script>
+		<script src="js/bootstrap-colorpicker.min.js"></script>
+		
+
+
 		
 	</head>
 
 <body>
+<style>
+	/*remove alpha bar from color picker to avoid rgba color code*/
+   .colorpicker-alpha {display:none !important;} .colorpicker{ min-width:128px !important;}
+</style>
+
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
