@@ -102,3 +102,9 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+.colorpicker-alpha {
+	display:none !important;
+} 
+.colorpicker{
+	 min-width:128px !important;
+	 }
