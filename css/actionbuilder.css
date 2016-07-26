@@ -1,7 +1,7 @@
 /* Taken from bootstrap: https://github.com/twitter/bootstrap/blob/master/less/tooltip.less */
 
 .popover-inner {
-  width: 443px;
+  width: 473px;
   padding: 1px;
   overflow: hidden;
   /*background: #000000;
@@ -182,6 +182,14 @@
 	background-color: #E45F56;
 }
 .action_MetaData
+{
+	background-color: #E45F56;
+}
+.action_Validation
+{
+	background-color: #E45F56;
+}
+.action_Pattern
 {
 	background-color: #E45F56;
 }
