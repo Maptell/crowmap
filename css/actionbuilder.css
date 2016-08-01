@@ -210,10 +210,10 @@ table {
 table, td, th {
  padding: 5px;
  text-align: left;
- border: 1px solid rgb(8,48,107);
+ /*border: 1px solid rgb(8,48,107);*/
 }
 table td {
-   width: 100px;
+   /*width: 100px;*/
    overflow: hidden;
 
 }
@@ -227,7 +227,7 @@ select{
    /*border: 1px solid #008000; */
 }
 
-input  {
+input[type=textbox]  {
     width:200px;
    /*border: 1px solid #008000;
    min-height:20px;*/
@@ -314,4 +314,7 @@ body /*{ font-family:Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif; font-s
 
 .mtooltip:hover .mtooltiptext {
     visibility: visible;
+}
+.ui-colorpicker-mode label{
+	margin-left: 6px;
 }
