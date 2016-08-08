@@ -26,6 +26,9 @@ You can add mapfile objects and parameters using crowmap's intuitive interface. 
 
 If you want to open an already existing mapfile, click on the `Open` button.
 
+The order of various objects of Mapserver including the layers can be changed using the up and down arrows in the dialog box.
+
 ### Known Issues
 
 Crowmap doesn't support mapfile comments.
+The order of individual mapfile parameters is not maintained.
