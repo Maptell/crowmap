@@ -28,6 +28,10 @@ If you want to open an already existing mapfile, click on the `Open` button.
 
 The order of various objects of Mapserver including the layers can be changed using the up and down arrows in the dialog box.
 
+<p align="center">
+<img alt="Crowmap Screen" src="/img/readme/crowmapc.png" width="500" />
+</p>
+
 ### Known Issues
 
 Crowmap doesn't support mapfile comments.
