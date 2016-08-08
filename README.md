@@ -35,4 +35,4 @@ The order of various objects of Mapserver including the layers can be changed us
 ### Known Issues
 
 Crowmap doesn't support mapfile comments.
-The order of individual mapfile parameters is not maintained.
+The order of individual mapfile parameters is not maintained when you open an existing mapfile.
