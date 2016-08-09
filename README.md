@@ -39,7 +39,7 @@ You can use crowmap with [Mapserver for Windows (MS4W)](http://ms4w.com/) by fol
 1. The applications in MS4W package are in `/ms4w/apps/` folder. Put the crowmap application in `/ms4w/apps/crowmap` folder.
 2. Move the `crowmap.pkg` file in crowmap ms4w folder to `/ms4w/Apache/htdocs/` folder.
 3. Move the `httpd_crowmap.conf` file in crowmap ms4w folder to `/ms4w/httpd.d/` folder.
-4. Restart the MS4W Apache Webserver.
+4. Restart the MS4W `Apache Webserver`.
 
 You can now access crowmap application in the browser by pointing to `http://localhost/crowmap`. If you use any port other than the the default http port, change the URL accordingly.
 
