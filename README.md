@@ -32,6 +32,17 @@ The order of various objects of Mapserver including the layers can be changed us
 <img alt="Crowmap Screen" src="/img/readme/crowmapc.png" width="500" />
 </p>
 
+### Crowmap with Mapserver for Windows (MS4W)
+
+You can use Crowmap with [Mapserver for Windows (MS4W)](http://ms4w.com/) by following the steps given below.
+
+1. The applications in MS4W package are in `/ms4w/apps/` folder. Put the Crowmap application in `/ms4w/apps/crowmap` folder.
+2. Move the `crowmap.pkg` file in Crowmap ms4w folder to `/ms4w/Apache/htdocs/` folder.
+3. Move the `httpd_crowmap.conf` file in Crowmap ms4w folder to `/ms4w/httpd.d/` folder.
+4. Restart the MS4W Apache Webserver.
+
+You can now access Crowmap application in the browser by pointing to `http://localhost/crowmap`. If you use any port other than the the default http port, change the URL accordingly.
+
 ### Known Issues
 
 Crowmap doesn't support mapfile comments.
